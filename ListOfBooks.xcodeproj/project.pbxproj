@@ -13,6 +13,10 @@
 		04F4E1D029F814A400CC36CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F4E1CE29F814A400CC36CE /* Main.storyboard */; };
 		04F4E1D229F814B300CC36CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F4E1D129F814B300CC36CE /* Assets.xcassets */; };
 		04F4E1D529F814B300CC36CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F4E1D329F814B300CC36CE /* LaunchScreen.storyboard */; };
+		04F4E1E729F8202100CC36CE /* BookEntityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4E1E529F8202100CC36CE /* BookEntityCell.swift */; };
+		04F4E1E829F8202100CC36CE /* BookEntityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F4E1E629F8202100CC36CE /* BookEntityCell.xib */; };
+		04F4E1EB29F8224E00CC36CE /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4E1EA29F8224E00CC36CE /* BookManager.swift */; };
+		04F4E1ED29F8261E00CC36CE /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4E1EC29F8261E00CC36CE /* BookData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		04F4E1D129F814B300CC36CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F4E1D429F814B300CC36CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F4E1D629F814B300CC36CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F4E1E529F8202100CC36CE /* BookEntityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEntityCell.swift; sourceTree = "<group>"; };
+		04F4E1E629F8202100CC36CE /* BookEntityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookEntityCell.xib; sourceTree = "<group>"; };
+		04F4E1EA29F8224E00CC36CE /* BookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookManager.swift; sourceTree = "<group>"; };
+		04F4E1EC29F8261E00CC36CE /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				04F4E1C829F814A400CC36CE /* AppDelegate.swift */,
 				04F4E1CA29F814A400CC36CE /* SceneDelegate.swift */,
 				04F4E1CC29F814A400CC36CE /* ViewController.swift */,
+				04F4E1EA29F8224E00CC36CE /* BookManager.swift */,
+				04F4E1EC29F8261E00CC36CE /* BookData.swift */,
+				04F4E1E929F821F100CC36CE /* BookEntityCell */,
 				04F4E1CE29F814A400CC36CE /* Main.storyboard */,
 				04F4E1D129F814B300CC36CE /* Assets.xcassets */,
 				04F4E1D329F814B300CC36CE /* LaunchScreen.storyboard */,
 				04F4E1D629F814B300CC36CE /* Info.plist */,
 			);
 			path = ListOfBooks;
+			sourceTree = "<group>";
+		};
+		04F4E1E929F821F100CC36CE /* BookEntityCell */ = {
+			isa = PBXGroup;
+			children = (
+				04F4E1E629F8202100CC36CE /* BookEntityCell.xib */,
+				04F4E1E529F8202100CC36CE /* BookEntityCell.swift */,
+			);
+			name = BookEntityCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +148,7 @@
 				04F4E1D529F814B300CC36CE /* LaunchScreen.storyboard in Resources */,
 				04F4E1D229F814B300CC36CE /* Assets.xcassets in Resources */,
 				04F4E1D029F814A400CC36CE /* Main.storyboard in Resources */,
+				04F4E1E829F8202100CC36CE /* BookEntityCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F4E1EB29F8224E00CC36CE /* BookManager.swift in Sources */,
 				04F4E1CD29F814A400CC36CE /* ViewController.swift in Sources */,
+				04F4E1ED29F8261E00CC36CE /* BookData.swift in Sources */,
 				04F4E1C929F814A400CC36CE /* AppDelegate.swift in Sources */,
 				04F4E1CB29F814A400CC36CE /* SceneDelegate.swift in Sources */,
+				04F4E1E729F8202100CC36CE /* BookEntityCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
