@@ -23,6 +23,10 @@
                                     <constraint firstAttribute="width" constant="374" id="DTY-Vu-A5j"/>
                                     <constraint firstAttribute="height" constant="706" id="XBo-9D-aIG"/>
                                 </constraints>
+                                <activityIndicatorView key="tableFooterView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" id="87M-Cc-MYn">
+                                    <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </activityIndicatorView>
                             </tableView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GIC-9Z-BxT">
                                 <rect key="frame" x="28" y="88" width="297" height="34"/>
@@ -45,6 +49,9 @@
                                 <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system">
                                     <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dW8-bg-RhY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -66,6 +73,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="List Of Books" id="7P0-63-QFN"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="87M-Cc-MYn" id="bxS-WX-5qg"/>
+                        <outlet property="serchBookTextField" destination="GIC-9Z-BxT" id="Wvf-Ue-FUG"/>
                         <outlet property="tableView" destination="gaO-5G-Xr9" id="x5C-ms-0A6"/>
                     </connections>
                 </viewController>

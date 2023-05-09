@@ -9,8 +9,6 @@ import UIKit
 
 class DetailBookViewController: UIViewController {
     
-    
-    
     @IBOutlet weak var imageBook: UIImageView!
     @IBOutlet weak var titleBookLabel: UILabel!
     @IBOutlet weak var averageRatingLabel: UILabel!
@@ -19,10 +17,8 @@ class DetailBookViewController: UIViewController {
     var detailBook : Doc?
     var indexOfBook: Int = 0
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         showDetailBook()
         fetchImage()
     }
