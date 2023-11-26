@@ -18,7 +18,7 @@
 		04F4E1D229F814B300CC36CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F4E1D129F814B300CC36CE /* Assets.xcassets */; };
 		04F4E1D529F814B300CC36CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F4E1D329F814B300CC36CE /* LaunchScreen.storyboard */; };
 		04F4E1ED29F8261E00CC36CE /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4E1EC29F8261E00CC36CE /* BookData.swift */; };
-		828C05E62B1394BE005CE477 /* no-image-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 828C05E52B1394BE005CE477 /* no-image-icon.png */; };
+		82841EFF2B139EEA00E72EC6 /* no-image-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82841EFE2B139EEA00E72EC6 /* no-image-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		04F4E1D429F814B300CC36CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F4E1D629F814B300CC36CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F4E1EC29F8261E00CC36CE /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
-		828C05E52B1394BE005CE477 /* no-image-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "no-image-icon.png"; path = "../../../no-image-icon.png"; sourceTree = "<group>"; };
+		82841EFE2B139EEA00E72EC6 /* no-image-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-image-icon.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				04F4E1D129F814B300CC36CE /* Assets.xcassets */,
 				04F4E1D329F814B300CC36CE /* LaunchScreen.storyboard */,
 				04F4E1D629F814B300CC36CE /* Info.plist */,
-				828C05E52B1394BE005CE477 /* no-image-icon.png */,
+				82841EFE2B139EEA00E72EC6 /* no-image-icon.png */,
 			);
 			path = ListOfBooks;
 			sourceTree = "<group>";
@@ -169,8 +169,8 @@
 			files = (
 				04F4E1D529F814B300CC36CE /* LaunchScreen.storyboard in Resources */,
 				04510C612A01466A00873A1E /* TableViewCell.xib in Resources */,
+				82841EFF2B139EEA00E72EC6 /* no-image-icon.png in Resources */,
 				04F4E1D229F814B300CC36CE /* Assets.xcassets in Resources */,
-				828C05E62B1394BE005CE477 /* no-image-icon.png in Resources */,
 				04F4E1D029F814A400CC36CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
