@@ -60,7 +60,7 @@ class DetailBookViewController: UIViewController {
                         }
                     } else {
                         DispatchQueue.main.async {
-                            self.imageBook.image = UIImage(named: "not-found-image.jpeg")
+                            self.imageBook.image = UIImage(named: "no-image-icon.png")
                         }
                     }
                 }
